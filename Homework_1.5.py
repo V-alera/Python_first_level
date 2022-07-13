@@ -16,7 +16,7 @@ def inputValue():
     return x1, x2, y1, y2
 
 def pointInterval(x1, x2, y1, y2):
-    res = ((y1 - x1) ** 2 + (y2 - x2) ** 2) ** (0.5)
+    res = round(((y1 - x1) ** 2 + (y2 - x2) ** 2) ** (0.5), 2)
     return res
 
 def printRes(res):
