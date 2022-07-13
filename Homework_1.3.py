@@ -17,10 +17,10 @@ def checkPart(arr):
     elif (arr[0] > 0 and arr[1] < 0): result = 2
     elif (arr[0] < 0 and arr[1] < 0): result = 3
     elif (arr[0] < 0 and arr[1] > 0): result = 4
-    else: print(f"One of coordinates lies on the border")
+    else: result = 0
     return result
 
 mass = inputValue(2)
 
 if checkPart(mass) > 0: print(f"x={mass[0]} y={mass[1]} -> {checkPart(mass)}")
-else: print ("Одно из значений равняется нулю")
+else: print ("Одно из значений равняется нулю, четверть не определена")
