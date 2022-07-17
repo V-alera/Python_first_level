@@ -3,8 +3,6 @@
 # 6782 -> 23
 # 0,56 -> 11
 
-
-
 import math
 import sys
 
