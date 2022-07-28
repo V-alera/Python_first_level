@@ -44,7 +44,7 @@ while manNum != num or compNum != num:
                 break
             else: print (f"Конфет осталось {sweets}")
         quit()
-    else: 
+    elif compNum == num: 
         print (f"Жеребьевку выйграл компьютер, он начинает!")
         while sweets > 0:
             computer = int(random.randrange(1, 29))
