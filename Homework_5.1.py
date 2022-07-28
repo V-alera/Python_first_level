@@ -21,7 +21,8 @@ manNum = 0
 compNum = 0
 
 while manNum != num or compNum != num:
-    man = int(input(f"Человек ввел:  "))
+    manNum = int(input(f"Человек ввел:  "))
+    compNum = int(random.randrange(1, 6))
     if manNum == num:
         print (f"Человек выйграл жеребьевку, он начинает!")
         while sweets > 0:
