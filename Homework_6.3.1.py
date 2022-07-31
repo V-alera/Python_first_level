@@ -13,7 +13,8 @@ def inputStr():
     return str
 
 def letterChecker(words):
-    return sum(1 for i in words if i in 'аеёиоуыэюя')
+    letters = ['а','е','ё','и','о','у','ы','э','ю','я']
+    return sum(1 for i in words if i in letters)
 
 def printRes(str):
     splitStr = phrase.split()
