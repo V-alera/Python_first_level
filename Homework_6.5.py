@@ -13,6 +13,6 @@ pow = lambda x, y: x ** y
 
 def print_operation_table(func, rows, cols):
   for i in range(1, rows+1):
-    print(*(func(i, k) for k in range(1, cols+1)))
+    print(*(func(i, k) for k in range(1, cols+1)), sep = '\t')
  
 print_operation_table(mult, 9, 9)
