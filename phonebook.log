@@ -543,3 +543,12 @@
 [04.08.2022 18:24:54 ] [INFO] [user_interface] [ls_menu: 145] => End
 [04.08.2022 18:25:08 ] [INFO] [main] [<module>: 8] => Start
 [04.08.2022 18:25:15 ] [INFO] [user_interface] [ls_menu: 145] => End
+[17.08.2022 12:43:26 ] [INFO] [main] [<module>: 8] => Start
+[17.08.2022 12:43:32 ] [INFO] [user_interface] [ls_menu: 22] => Item number 1
+[17.08.2022 12:44:06 ] [INFO] [user_interface] [ls_menu: 145] => End
+[17.08.2022 13:12:41 ] [INFO] [main] [<module>: 8] => Start
+[17.08.2022 13:12:47 ] [INFO] [user_interface] [ls_menu: 22] => Item number 1
+[17.08.2022 13:13:22 ] [INFO] [user_interface] [ls_menu: 145] => End
+[17.08.2022 13:13:35 ] [INFO] [main] [<module>: 8] => Start
+[17.08.2022 13:15:40 ] [INFO] [user_interface] [ls_menu: 22] => Item number 1
+[17.08.2022 13:18:03 ] [INFO] [user_interface] [ls_menu: 145] => End
